@@ -5,7 +5,7 @@ using UnityEngine;
 public class FrogMovement : MonoBehaviour {
 
 	public float jumpElevationInDegrees = 45;
-	public float jumpSpeedInMPS = 5;
+	public float jumpSpeedInCMPS = 5;
 	public float jumpGroundClearance = 2;
 	public float jumpSpeedTolerance = 5;
 
@@ -26,7 +26,7 @@ public class FrogMovement : MonoBehaviour {
 			var projectedLookDirection = Vector3.ProjectOnPlane(camera.transform.forward, Vector3.up);
 			var radianToRotate = Mathf.Deg2Rad * jumpElevationInDegrees;
 			var unnormalizedJumpDirection = Vector3.RotateTowards(projectedLookDirection, Vector3.up, radianToRotate, 0);
-			var jumpVector = unnormalizedJumpDirection.normalized * jumpSpeedInMPS;
+			var jumpVector = unnormalizedJumpDirection.normalized * jumpSpeedInCMPS;
 			GetComponent<Rigidbody> ().AddForce(jumpVector, ForceMode.VelocityChange);
 		}
 	}

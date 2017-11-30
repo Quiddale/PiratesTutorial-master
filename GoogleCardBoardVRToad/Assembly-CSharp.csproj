@@ -159,6 +159,8 @@
      <Compile Include="Assets\Scripts\LaneSpawner.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\TreeSpawner.cs" />
+     <Compile Include="Assets\VehicleMovement.cs" />
+     <Compile Include="Assets\VehicleSpawner.cs" />
      <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />

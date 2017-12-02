@@ -156,6 +156,7 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
      <Compile Include="Assets\Scripts\FrogMovement.cs" />
+     <Compile Include="Assets\Scripts\HUDRotation.cs" />
      <Compile Include="Assets\Scripts\LaneSpawner.cs" />
      <Compile Include="Assets\Scripts\LevelManager.cs" />
      <Compile Include="Assets\Scripts\TreeSpawner.cs" />

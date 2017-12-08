@@ -46,7 +46,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\FrogMovement.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
@@ -156,11 +155,13 @@
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrIntent.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Utilities\GvrUIHelpers.cs" />
      <Compile Include="Assets\GoogleVR\Scripts\Video\GvrVideoPlayerTexture.cs" />
-     <Compile Include="Assets\LaneSpawner.cs" />
-     <Compile Include="Assets\LevelManager.cs" />
-     <Compile Include="Assets\TreeSpawner.cs" />
-     <Compile Include="Assets\VehicleMovement.cs" />
-     <Compile Include="Assets\VehicleSpawner.cs" />
+     <Compile Include="Assets\Script\FrogMovement.cs" />
+     <Compile Include="Assets\Script\HUDRotation.cs" />
+     <Compile Include="Assets\Script\LaneSpawner.cs" />
+     <Compile Include="Assets\Script\LevelManager.cs" />
+     <Compile Include="Assets\Script\TreeSpawner.cs" />
+     <Compile Include="Assets\Script\VehicleMovement.cs" />
+     <Compile Include="Assets\Script\VehicleSpawner.cs" />
      <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
